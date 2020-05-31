@@ -643,7 +643,7 @@ object {
 }
 #about{
     background-color: #E9E8E6;
-    background-image: url(../images/bg-img.jpg);
+    /*background-image: url(../images/bg-img.jpg); */
     background-repeat: no-repeat;
     background-size: 80%;
     background-position:right top;
@@ -1440,4 +1440,11 @@ object {
 
 .services-box-logo img {
     padding-top:15px;
+}
+
+.imgPortfolio{
+background-image: url(../images/bg-img.jpg);
+object-fit : contain;
+width: 100%;
+height: auto;
 }
